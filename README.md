@@ -188,11 +188,29 @@ The CNN model typically achieves:
 
 The project generates several visualization outputs:
 
-1. **Sample Images** (`sample_images.png`): Random MNIST samples with labels
-2. **Training History** (`training_history.png`): Training/validation accuracy and loss curves
-3. **Confusion Matrix** (`confusion_matrix.png`): Classification error analysis
-4. **Classification Errors** (`classification_errors.png`): Examples of misclassified digits
-5. **Prediction Confidence** (`prediction_confidence.png`): Confidence score distributions
+### Sample Images from MNIST Dataset
+
+![Sample MNIST Images](outputs/sample_images.png)
+
+**What this visualization shows:**
+- **Random Sample Display**: Shows 10 randomly selected images from the MNIST training dataset
+- **Digit Labels**: Each image is labeled with its true digit (0-9)
+- **Grayscale Format**: Images are displayed in grayscale as they appear in the dataset
+- **28×28 Pixel Resolution**: Each digit is a 28×28 pixel image
+- **Data Quality**: Demonstrates the variety of handwriting styles and digit appearances in the dataset
+
+This visualization helps understand:
+- The diversity of handwriting styles in the dataset
+- The clarity and quality of the digit images
+- The preprocessing pipeline (normalization to [0,1] range)
+- What the model is learning to classify
+
+### Other Generated Visualizations
+
+1. **Training History** (`training_history.png`): Training/validation accuracy and loss curves
+2. **Confusion Matrix** (`confusion_matrix.png`): Classification error analysis
+3. **Classification Errors** (`classification_errors.png`): Examples of misclassified digits
+4. **Prediction Confidence** (`prediction_confidence.png`): Confidence score distributions
 
 ## 🔍 Usage Examples
 
